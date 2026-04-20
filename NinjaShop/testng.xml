@@ -1,0 +1,18 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+
+<suite name="NinjaShop Suite">
+
+    <listeners>
+        <listener class-name="ninjashop.listeners.TestListener"/>
+    </listeners>
+
+    <test name="Full Test Flow">
+        <classes>
+            <class name="ninjashop.tests.AuthenticationTest"/>
+            <class name="ninjashop.tests.ProductTest"/>
+            <class name="ninjashop.tests.CartTest"/>
+            <class name="ninjashop.tests.CheckoutTest"/>
+        </classes>
+    </test>
+
+</suite>
