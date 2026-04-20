@@ -1,0 +1,1 @@
+# NinjaShop-Automation-Framework
